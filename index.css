@@ -40,6 +40,9 @@ body {
 .ContactForm {
   padding: 8px 24px;
 }
+.ContactForm > input.ContactForm-error {
+  border-color: #b30e2f;
+}
 .ContactForm > input,
 .ContactForm > textarea {
   display: block;
